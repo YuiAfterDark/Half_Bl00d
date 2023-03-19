@@ -1,0 +1,1319 @@
+@\import "https://gitcdn.link/cdn/Half-Bl00d/tokyo-revengers-haze/main/fonts.css";
+
+body {
+	background: url("https://i.imgur.com/ndyZjd1.png") no-repeat fixed center bottom / cover #e7c2b0 !important;
+	margin: 0 0 0 0;
+	z-index: 1;
+}
+.header {
+	background: none;
+	border: none;
+	display: block;
+	height: 0px;
+	left: 0px;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	top: 0px;
+	width: 0px;
+	z-index: 555;
+}
+.header .header-title {
+	background-size: contain;
+	display: block;
+	height: 30px;
+	left: 5px;
+	pointer-events: auto;
+	position: fixed;
+	top: 5px;
+	width: 178px;
+	z-index: 551;
+}
+.header .header-menu {
+	background: none;
+	height: 40px;
+	left: 0px;
+	position: fixed;
+	top: 0px !important;
+	width: 310px;
+}
+body[data-owner="1"] .header .header-menu, body[data-owner=""] .header .header-title {
+	display: none !important;
+}
+.header .header-menu .btn-menu {
+	margin-left: 6px;
+	margin-top: 1px;
+	text-align: left;
+}
+.header .header-menu .header-info {
+	margin-left: 5px;
+	margin-top: 3px;
+	text-align: left;
+}
+footer, #footer-block {
+	background: none;
+	border: 0;
+	display: block;
+	height: 40px;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	pointer-events: none;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 550;
+}
+#copyright {
+	background: none;
+	color: #999999;
+	display: block;
+	font-family: 'Tahoma';
+	font-size: 9px;
+	height: 40px;
+	left: 0px;
+	line-height: 10px;
+	margin-top: -2px;
+	padding: 0;
+	pointer-events: none;
+	position: fixed;
+	text-align: center;
+	top: 0px;
+	white-space: pre-line;
+	width: 100%;
+}
+#copyright:after {
+	color: white;
+	display: inline;
+	content: "cKen Wakui, KODANSHA / TOKYO REVENGERS Anime Production Committee.\A Designed by Half_Bl00d.";
+}
+#recaptcha-terms {
+	color: #999999;
+	margin-top: -2px;
+	position: fixed;
+	width: 100%;
+}
+.list-unit .loading-space {
+	border: 0;
+	font-size: 0px;
+	height: 0px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.list-container {
+	background: none !important;
+	border: none;
+	left: calc((100vw - 900px) / 2);
+	margin: 0;
+	position: absolute;
+	top: 40px;
+	width: 900px;
+	z-index: 500;
+}
+.cover-block {
+	height: 506px;
+	width: 900px;
+}
+.cover-block #cover-image-container {
+	display: block !important;
+	height: 506px;
+	padding: 0;
+	width: 900px;
+}
+.cover-block #cover-image {
+	background: url("https://i.imgur.com/X4Y7EXp.png") no-repeat scroll;
+	border-radius: 11px;
+	height: 506px;
+	width: 900px;
+}
+.cover-block a.btn-list-setting {
+	display: none !important;
+}
+.list-block {
+	margin: 0 !important;
+	min-height: 80px;
+	width: 900px;
+}
+.list-unit {
+	display: block;
+	margin-left: 0px;
+	width: 900px;
+}
+.list-table {
+	display: block;
+	border: none;
+	border-collapse: collapse;
+	margin-top: 50px;
+	padding: 0 !important;
+	width: 900px;
+}
+td {
+	line-height: 1em;
+}
+.list-item {
+	background: url("https://i.imgur.com/Rb5CXt9.png") no-repeat scroll;
+	border: none;
+	border-radius: 5px;
+	float: left;
+	height: 80px;
+	margin-bottom: 5px;
+	position: relative;
+	width: 900px;
+}
+.list-table .list-table-data {
+	align-content: flex-start;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	flex-direction: column;
+	flex-wrap: wrap;
+	height: 45px;
+	left: 60px;
+	position: absolute;
+	top: 25px;
+	width: 720px;
+	z-index: 500;
+}
+.list-table .list-table-data .data {
+	border: none;
+	box-sizing: border-box;
+}
+.list-table .list-table-data .data.status {
+	border-radius: 4px;
+	display: block;
+	height: 8px;
+	left: -57px;
+	padding: 0;
+	position: absolute;
+	top: -22px;
+	width: 8px;
+	z-index: 503;
+}
+.list-table .list-table-data .data.image {
+	border: solid 1px black;
+	border-top-left-radius: 12px;
+	height: 66px;
+	left: -53px;
+	padding: 0px;
+	position: absolute;
+	top: -18px;
+	width: 46px;
+}
+.list-table .list-table-data .data.image a {
+	border: solid 1px #d0931b;
+	border-top-left-radius: 11px;
+}
+.list-table .list-table-data .data.image .image {
+	border: solid 1px black;
+	border-top-left-radius: 10px;
+	height: 60px;
+	width: 40px;
+}
+.list-table .list-table-data .number {
+	background: rgba(0, 0, 0, 0.75);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	color: white;
+	font-family: 'Tahoma';
+	font-size: 9px;
+	height: 12px;
+	left: -53px;
+	line-height: 12px;
+	padding: 0;
+	pointer-events: none;
+	position: absolute;
+	text-align: center;
+	top: 43px;
+	width: 46px;
+	z-index: 502;
+}
+.list-table .list-table-data .number:before {
+	background: rgba(0, 0, 0, 0.75);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	color: white;
+	content: "More";
+	cursor: pointer;
+	display: block;
+	font-size: 9px;
+	height: 12px;
+	left: 0px;
+	line-height: 12px;
+	pointer-events: auto;
+	position: absolute;
+	text-align: center;
+	top: -68px;
+	transition: color 0.2s ease-in-out;
+	width: 46px;
+}
+.list-table .list-table-data .number:hover:before {
+	color: #d0931b;
+}
+.list-table .list-table-data .number:after {
+	background: url("https://i.imgur.com/Rb5CXt9.png") no-repeat scroll;
+	background-position: -60px -25px;
+	content: "";
+	display: block;
+	height: 0px;
+	left: 53px;
+	position: absolute;
+	top: -43px;
+	width: 0px;
+}
+.list-table .list-table-data .number:hover:after {
+	height: 45px;
+	width: 780px;
+}
+.list-table .list-table-data .number:hover ~ .progress,
+.list-table .list-table-data .number:hover ~ .demographic,
+.list-table .list-table-data .number:hover ~ .season,
+.list-table .list-table-data .number:hover ~ .type,
+.list-table .list-table-data .number:hover ~ .rated,
+.list-table .list-table-data .number:hover ~ .genre,
+.list-table .list-table-data .number:hover ~ .tags,
+.list-table .list-table-data .number:hover ~ .airing-started,
+.list-table .list-table-data .number:hover ~ .airing-finished,
+.list-table .list-table-data .number:hover ~ .chapter,
+.list-table .list-table-data .number:hover ~ .volume {
+	display: none !important;
+}
+.list-table .list-table-data .number:hover ~ .storage,
+.list-table .list-table-data .number:hover ~ .priority,
+.list-table .list-table-data .number:hover ~ .studio,
+.list-table .list-table-data .number:hover ~ .licensor,
+.list-table .list-table-data .number:hover ~ .started,
+.list-table .list-table-data .number:hover ~ .finished,
+.list-table .list-table-data .number:hover ~ .days,
+.list-table .list-table-data .number:hover ~ .magazine {
+	display: block !important;
+}
+.list-table .list-table-data .data.title {
+	color: white !important;
+	display: block;
+	font-family: 'Lucida Grande', 'Verdana' !important;
+	font-size: 14px;
+	height: 15px;
+	left: 0px;
+	line-height: 11px;
+	padding: 0;
+	position: absolute;
+	top: -15px;
+	width: 780px;
+}
+.list-table .list-table-data .data.title .link {
+	color: white !important;
+	display: inline-block;
+	font-size: 1.1em;
+	height: 15px;
+	margin-top: -2px;
+	max-width: 780px;
+	overflow: hidden;
+	padding-top: 2px;
+	text-overflow: ellipsis;
+	transition: color 0.2s ease-in-out;
+	white-space: nowrap;
+}
+.list-table .list-table-data .data.title .link:hover {
+	color: #d0931b !important;
+	text-decoration: none;
+}
+.list-table .list-table-data .data.title .content-status, .rewatching, .rereading {
+	background: rgba(0, 0, 0, 0.75);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	color: #d0931b;
+	font-family: 'Verdana';
+	font-size: 9px;
+	height: 12px;
+	line-height: 12px;
+	padding: 0;
+	position: absolute;
+	right: -20px;
+	text-align: center;
+	top: -10px;
+}
+body[data-work="anime"] .list-table .list-table-data .data.title .content-status {
+	width: 100px;
+}
+body[data-work="manga"] .list-table .list-table-data .data.title .content-status {
+	width: 120px;
+}
+.list-table .list-table-data .data.title .add-edit-more {
+	color: transparent;
+	float: none;
+	font-family: 'Verdana';
+	font-size: 0px;
+	height: 12px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	right: -50px;
+	text-align: right;
+	top: -1px;
+	width: 40px;
+}
+.list-table .list-table-data .data.title .add-edit-more a {
+	color: #999999 !important;
+	font-size: 10px;
+	transition: color 0.2s ease-in-out;
+	visibility: visible !important;
+}
+.list-table .list-table-data .data.title .add-edit-more a:hover {
+	color: white !important;
+	text-decoration: none;
+}
+.more {
+	top: 36px;
+}
+.list-table .list-table-data .title .icon-watch, .list-table .list-table-data .title .icon-watch2 {
+	display: none;
+}
+.list-table .list-table-data .progress,
+.list-table .list-table-data .demographic,
+.list-table .list-table-data .season,
+.list-table .list-table-data .type,
+.list-table .list-table-data .rated,
+.list-table .list-table-data .genre,
+.list-table .list-table-data .airing-started,
+.list-table .list-table-data .airing-finished,
+.list-table .list-table-data .storage,
+.list-table .list-table-data .priority,
+.list-table .list-table-data .studio,
+.list-table .list-table-data .licensor,
+.list-table .list-table-data .started,
+.list-table .list-table-data .finished,
+.list-table .list-table-data .chapter,
+.list-table .list-table-data .volume,
+.list-table .list-table-data .genre ~ .genre,
+.list-table .list-table-data .magazine {
+	color: #999999 !important;
+	font-family: 'Tahoma';
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 15px;
+	padding: 0;
+	text-align: left;
+}
+.list-table .list-table-data .progress a,
+.list-table .list-table-data .demographic a,
+.list-table .list-table-data .season a,
+.list-table .list-table-data .tags a,
+.list-table .list-table-data .studio a,
+.list-table .list-table-data .licensor a,
+.list-table .list-table-data .chapter a,
+.list-table .list-table-data .volume a,
+.list-table .list-table-data .genre ~ .genre a,
+.list-table .list-table-data .magazine a {
+	color: #999999 !important;
+	transition: color 0.2s ease-in-out;
+}
+.list-table .list-table-data .progress a:hover,
+.list-table .list-table-data .demographic a:hover,
+.list-table .list-table-data .season a:hover,
+.list-table .list-table-data .tags a:hover,
+.list-table .list-table-data .studio a:hover,
+.list-table .list-table-data .licensor a:hover,
+.list-table .list-table-data .chapter a:hover,
+.list-table .list-table-data .volume a:hover,
+.list-table .list-table-data .genre ~ .genre a:hover,
+.list-table .list-table-data .magazine a:hover {
+	color: white !important;
+	text-decoration: none;
+}
+.list-table .list-table-data .progress div[class*="progress"]:before,
+.list-table .list-table-data .demographic a:before,
+.list-table .list-table-data .season:before,
+.list-table .list-table-data .type:before,
+.list-table .list-table-data .rated:before,
+.list-table .list-table-data .airing-started:before,
+.list-table .list-table-data .storage:before,
+.list-table .list-table-data .priority:before,
+.list-table .list-table-data .studio span:first-of-type:before,
+.list-table .list-table-data .licensor span:first-of-type:before,
+.list-table .list-table-data .started:before,
+.list-table .list-table-data .chapter div[class*="chapter"]:before,
+.list-table .list-table-data .volume div[class*="volume"]:before,
+.list-table .list-table-data .genre ~ .genre a:before,
+.list-table .list-table-data .magazine span:first-of-type:before {
+	color: #d0931b;
+	font-weight: normal;
+}
+.list-table .list-table-data .progress {
+	order: 1;
+	width: 150px;
+}
+.list-table .list-table-data .progress div[class*="progress"]:before {
+	content: "Progress: ";
+}
+.list-table .list-table-data .progress .icon-add-episode {
+	font-size: 9px;
+	left: 5px;
+	position: relative;
+	top: -1px;
+}
+.list-table .list-table-data .chapter {
+	order: 1;
+	width: 150px;
+}
+.list-table .list-table-data .chapter div[class*="chapter"]:before {
+	content: "Chapters: ";
+}
+.list-table .list-table-data .volume {
+	order: 2;
+	width: 150px;
+}
+.list-table .list-table-data .volume div[class*="volume"]:before {
+	content: "Volumes: ";
+}
+.list-table .list-table-data .demographic, .list-table .list-table-data .genre ~ .genre {
+	width: 150px;
+}
+body[data-work="anime"] .list-table .list-table-data .demographic {
+	order: 2;
+}
+body[data-work="manga"] .list-table .list-table-data .genre ~ .genre {
+	height: 15px;
+	order: 3;
+}
+.list-table .list-table-data .demographic a:before, .list-table .list-table-data .genre ~ .genre span:before {
+	content: "Demographic: " !important;
+	display: inline !important;
+	font-weight: normal;
+}
+.list-table .list-table-data .season {
+	order: 3;
+	width: 150px;
+}
+.list-table .list-table-data .season:before {
+	content: "Season:";
+}
+.list-table .list-table-data .type {
+	order: 4;
+}
+body[data-work="anime"] .list-table .list-table-data .type {
+	width: 100px;
+}
+body[data-work="manga"] .list-table .list-table-data .type {
+	width: 110px;
+}
+.list-table .list-table-data .type:before {
+	content: "Type:";
+}
+.list-table .list-table-data .rated {
+	order: 5;
+	width: 100px;
+}
+.list-table .list-table-data .rated:before {
+	content: "Rating:";
+}
+.list-table .list-table-data .retail {
+	display: none !important;
+}
+.list-table .list-table-data .genre {
+	font-size: 11px;
+	font-weight: normal;
+	height: 45px;
+	line-height: 11px;
+	order: 6;
+	overflow: hidden;
+	text-align: center;
+}
+.list-table .list-table-data .genre a {
+	color: #999999 !important;
+	transition: color 0.2s ease-in-out;
+}
+.list-table .list-table-data .genre a:hover {
+	color: white !important;
+	text-decoration: none;
+}
+.list-table .list-table-data .genre span:first-of-type:before {
+	color: #d0931b;
+	content: "Genres:";
+	display: block;
+	font-size: 12px;
+	line-height: 12px;
+}
+body[data-work="anime"] .list-table .list-table-data .genre, .list-table .list-table-data .genre span:first-of-type:before {
+	width: 170px;
+}
+body[data-work="manga"] .list-table .list-table-data .genre, .list-table .list-table-data .genre span:first-of-type:before {
+	width: 160px;
+}
+.list-table .list-table-data .tags {
+	color: #999999 !important;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	flex-direction: column;
+	font-family: 'Tahoma';
+	font-size: 10px;
+	height: 45px;
+	justify-content: center;
+	order: 7;
+	padding-bottom: 0;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 0;
+	text-align: center;
+	width: 300px;
+}
+.list-table .list-table-data .tags .edit {
+	display: none;
+}
+.list-table .list-table-data .airing-started {
+	height: 30px;
+	position: absolute;
+	right: -60px;
+	text-align: center;
+	top: 0px;
+	width: 60px;
+}
+.list-table .list-table-data .airing-started:before {
+	display: block;
+}
+body[data-work="anime"] .list-table .list-table-data .airing-started:before {
+	content: "Aired:";
+}
+body[data-work="manga"] .list-table .list-table-data .airing-started:before {
+	content: "Published:";
+}
+.list-table .list-table-data .airing-finished {
+	position: absolute;
+	right: -60px;
+	text-align: center;
+	top: 30px;
+	width: 60px;
+}
+.list-table .list-table-data .score {
+	color: #d0931b !important;
+	font-family: 'Lucida Grande', 'Verdana';
+	font-size: 31px;
+	padding: 0;
+	position: absolute;
+	right: -110px;
+	top: 0px;
+}
+.list-table .list-table-data .score a, .list-table .list-table-data .score a:hover {
+	color: #d0931b !important;
+	font-size: 1.1em;
+}
+.list-table .list-table-data .storage {
+	display: none;
+	order: 1;
+	width: 200px;
+	z-index: 502;
+}
+.list-table .list-table-data .storage:before {
+	content: "Storage:";
+}
+.list-table .list-table-data .priority {
+	display: none;
+	order: 1.5;
+	width: 200px;
+	z-index: 502;
+}
+.list-table .list-table-data .priority:before {
+	content: "Priority:";
+}
+.list-table .list-table-data .studio {
+	display: none;
+	font-weight: normal;
+	height: 45px;
+	order: 2;
+	text-align: center;
+	width: 290px;
+	z-index: 502;
+}
+.list-table .list-table-data .studio span:first-of-type:before {
+	content: "Studios:";
+	display: block;
+	width: 290px;
+}
+.list-table .list-table-data .magazine {
+	display: none;
+	font-weight: normal;
+	height: 45px;
+	order: 1;
+	text-align: center;
+	width: 290px;
+	z-index: 502;
+}
+.list-table .list-table-data .magazine span:first-of-type:before {
+	content: "Magazine:";
+	display: block;
+	width: 290px;
+}
+.list-table .list-table-data .licensor {
+	display: none;
+	font-weight: normal;
+	height: 45px;
+	order: 3;
+	text-align: center;
+	width: 290px;
+	z-index: 502;
+}
+.list-table .list-table-data .licensor span:first-of-type:before {
+	content: "Licensors:";
+	display: block;
+	width: 290px;
+}
+.list-table .list-table-data .started {
+	display: none;
+	height: 30px;
+	position: absolute;
+	right: -60px;
+	text-align: center;
+	top: 0px;
+	width: 60px;
+	z-index: 502;
+}
+.list-table .list-table-data .started:before {
+	display: block;
+}
+body[data-work="anime"] .list-table .list-table-data .started:before {
+	content: "Watched:";
+}
+body[data-work="manga"] .list-table .list-table-data .started:before {
+	content: "Read:";
+}
+.list-table .list-table-data .finished {
+	display: none;
+	position: absolute;
+	right: -60px;
+	text-align: center;
+	top: 30px;
+	width: 60px;
+	z-index: 502;
+}
+.list-table .list-table-data .days {
+	color: #d0931b !important;
+	display: none;
+	font-family: 'Tahoma';
+	font-size: 9px;
+	line-height: 9px;
+	padding: 0;
+	position: absolute;
+	right: -60px;
+	text-align: center;
+	top: 45px;
+	width: 60px;
+	z-index: 502;
+}
+.list-table .list-table-data .days:after {
+	content: " Days";
+}
+.list-table .more-info {
+	background: url("https://i.imgur.com/Rb5CXt9.png") no-repeat scroll;
+	background-position: -60px 0;
+	border: none;
+	color: #999999 !important;
+	height: 80px;
+	left: 60px;
+	position: absolute;
+	top: 0px;
+	width: 800px;
+	z-index: 503;
+}
+.list-table .more-info a {
+	color: #d0931b !important;
+	transition: color 0.2s ease-in-out;
+}
+.list-table .more-info a:hover {
+	color: white !important;
+	text-decoration: none;
+}
+.borderRBL {
+	column-count: 3;
+	column-gap: 4px;
+	column-width: 264px;
+	font-family: 'Tahoma';
+	font-size: 11px;
+	height: 60px;
+	left: 0px;
+	overflow-x: auto;
+	position: absolute;
+	scrollbar-width: thin;
+	top: 10px;
+	width: 800px;
+}
+.borderRBL div {
+	margin-bottom: 0 !important;
+}
+
+.list-table > tbody:first-of-type {
+	background: none !important;
+	border-left: solid 1px #d0931b;
+	display: block;
+	height: 40px;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	right: 82px;
+	top: 0px;
+	width: 40px;
+	z-index: 600;
+}
+.list-table > tbody:first-of-type:before {
+	background: none;
+	color: #d0931b;
+	content: "\F161";
+	display: block;
+	font-family: 'FontAwesome';
+	font-size: 15px;
+	height: 40px;
+	left: 0px;
+	line-height: 40px;
+	top: 0px;
+	transition: color 0.2s ease-in-out;
+	position: absolute;
+	text-align: center;
+	width: 40px;
+}
+.list-table > tbody:first-of-type:hover:before {
+	color: white;
+}
+.list-table .list-table-header {
+	background: none;
+	border-bottom: solid 1px #d0931b;
+	border-left: solid 1px #d0931b;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	flex-direction: column;
+	margin-left: 72px;
+	margin-top: 40px;
+	position: absolute;
+	right: -205px;
+	top: 0;
+	transition: right 0.2s ease-in-out;
+	width: 122px;
+}
+.list-table > tbody:first-of-type:hover .list-table-header {
+	right: -82px;
+}
+.list-table .list-table-header:before {
+	background: rgba(0, 0, 0, 0.75);
+	color: white;
+	content: "Sort By:";
+	font-family: 'Lucida Grande', 'Verdana';
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 22px;
+	order: 0;
+	padding-right: 10px;
+	text-align: right;
+}
+.list-table .list-table-header .header-title {
+	background: none;
+	border: none;
+	height: 22px;
+	padding: 0 !important;
+	width: 122px !important;
+}
+.list-table .list-table-header .header-title .link.sort {
+	background: rgba(0, 0, 0, 0.75);
+	color: #d0931b;
+	display: block;
+	font-family: 'Lucida Grande', 'Verdana';
+	font-size: 16px;
+	font-weight: normal !important;
+	line-height: 22px;
+	padding-right: 10px !important;
+	position: absolute;
+	text-align: right;
+	transition: color 0.2s ease-in-out;
+	width: 112px;
+}
+.list-table .list-table-header .header-title .link.sort:hover {
+	color: white;
+}
+.list-table .list-table-header .header-title .sort-icon, .list-table .list-table-header .header-title .link, .list-table .list-table-header .header-title:last-child {
+	display: none;
+}
+body[data-work="anime"] .list-table .list-table-header .header-title.title {
+	order: 3;
+}
+body[data-work="manga"] .list-table .list-table-header .header-title.title {
+	order: 5;
+}
+.list-table .list-table-header .header-title.progress {
+	order: 4;
+}
+.list-table .list-table-header .header-title.rated {
+	order: 9;
+}
+.list-table .list-table-header .header-title.score {
+	order: 10;
+}
+.list-table .list-table-header .header-title.type {
+	order: 11;
+}
+.list-table .list-table-header .header-title.started {
+	order: 2;
+}
+.list-table .list-table-header .header-title.finished {
+	order: 1;
+}
+.list-table .list-table-header .header-title.started ~ .started ~ .started {
+	display: block !important;
+	order: 5;
+}
+body[data-work="manga"] .list-table .list-table-header .header-title.started ~ .started {
+	display: block !important;
+	order: 3;
+}
+body[data-work="anime"] .list-table .list-table-header .header-title.finished ~ .finished {
+	order: 6;
+}
+body[data-work="manga"] .list-table .list-table-header .header-title.finished ~ .finished {
+	order: 4;
+}
+.list-table .list-table-header .header-title.chapters {
+	order: 7;
+}
+.list-table .list-table-header .header-title.volumes {
+	order: 8;
+}
+.list-table .list-table-header .header-title.storage {
+	order: 7;
+}
+body[data-work="anime"] .list-table .list-table-header .header-title.priority {
+	order: 8;
+}
+body[data-work="manga"] .list-table .list-table-header .header-title.priority {
+	order: 9;
+}
+.list-table .list-table-header .header-title.status, .list-table .list-table-header .header-title.number, .list-table .list-table-header .header-title.image, .list-table .list-table-header .header-title.tags, body[data-work="anime"] .list-table .list-table-header .header-title.started ~ .started, .list-table .list-table-header .header-title.days, .list-table .list-table-header .header-title.studio, .list-table .list-table-header .header-title.licensor, .list-table .list-table-header .header-title.genre, .list-table .list-table-header .header-title.demographic, .list-table .list-table-header .header-title.retail, .list-table .list-table-header .header-title.magazine {
+	display: none !important;
+}
+.list-unit .list-status-title {
+	backdrop-filter: blur(5px);
+	background: rgba(0, 0, 0, 0.75);
+	border: none;
+	display: block;
+	height: 40px;
+	left: 0px;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 550;
+}
+.list-unit .list-status-title .text {
+	display: none !important;
+}
+.list-unit .list-status-title .stats {
+	background: none;
+	border: none;
+	display: block;
+	height: 0px;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	right: 0px;
+	z-index: 551;
+}
+.list-unit .list-status-title .stats a {
+	border: none;
+	display: block;
+	line-height: 1em;
+	padding: 0;
+	margin: 0;
+}
+#show-stats-button, #advanced-options-button {
+	background: none;
+	border-left: solid 1px #d0931b;
+	color: #d0931b;
+	display: block;
+	font-size: 0px;
+	height: 40px;
+	margin: 0;
+	padding: 0;
+	top: 0px;
+	transition: color 0.2s ease-in-out;
+	position: fixed;
+	text-align: center;
+	width: 40px;
+	z-index: 552;
+}
+#show-stats-button {
+	right: 164px;
+}
+#advanced-options-button {
+	right: 123px;
+}
+#show-stats-button:hover, #advanced-options-button:hover {
+	color: white;
+}
+#show-stats-button .fa-solid, #advanced-options-button .fa-solid {
+	font-size: 15px;
+	line-height: 40px;
+}
+.list-unit .list-stats {
+	background: rgba(0, 0, 0, 0.75);
+	border-bottom: solid 1px #d0931b;
+	border-left: solid 1px #d0931b;
+	color: #d0931b;
+	display: none;
+	font-family: 'Lucida Grande', 'Verdana';
+	font-size: 12px;
+	height: 60px;
+	line-height: 15px;
+	margin: 0;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	position: fixed;
+	right: 0px;
+	text-align: center;
+	top: 40px;
+	width: 184px;
+	z-index: 552;
+}
+.status-menu-container {
+	backdrop-filter: blur(5px);
+	background: rgba(0, 0, 0, 0.75);
+	border: none;
+	border-radius: 11px;
+	display: block;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+	position: absolute !important;
+	top: 516px !important;
+	width: 900px;
+	z-index: 500;
+}
+.status-menu-container .status-menu {
+	background: none;
+	border-collapse: separate;
+	border-spacing: 0;
+	display: block;
+	height: 30px;
+	left: 110px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0px;
+	width: 680px;
+	z-index: 501;
+}
+.status-menu-container .status-menu .status-button {
+	background: none;
+	color: white;
+	display: block;
+	font-family: 'Lucida Grande', 'Verdana';
+	font-size: 15px;
+	font-variant: small-caps;
+	height: 30px;
+	line-height: 30px;
+	padding: 0;
+	position: absolute;
+	text-align: center;
+	top: 0px;
+	transition: color 0.2s ease-in-out;
+}
+.status-menu-container .status-menu .status-button:hover {
+	color: #d0931b;
+}
+.status-menu-container .status-menu .status-button.on {
+	color: #d0931b;
+	display: block;
+	font-weight: 100 !important;
+	padding: 0;
+	pointer-events: none;
+	position: absolute;
+}
+.status-menu-container .status-menu .status-button:after {
+	background: #999999;
+	border-radius: 50%;
+	bottom: -5px;
+	content: "";
+	display: block;
+	height: 10px;
+	opacity: 0;
+	position: absolute;
+	width: 10px;
+}
+.status-menu-container .status-menu .status-button:hover:after, .status-menu-container .status-menu .status-button.on:after {
+	opacity: 1;
+}
+.status-menu-container .status-menu .status-button.on:after {
+	background: white;
+}
+.status-menu-container .status-menu .status-button.all_anime {
+	left: 0px;
+	width: 100px;
+}
+.status-menu-container .status-menu .status-button.all_anime:after {
+	left: 45px;
+}
+.status-menu-container .status-menu .status-button.watching, .status-menu-container .status-menu .status-button.reading {
+	left: 100px;
+	width: 180px;
+}
+.status-menu-container .status-menu .status-button.watching:after, .status-menu-container .status-menu .status-button.reading:after {
+	left: 85px;
+}
+.status-menu-container .status-menu .status-button.completed {
+	left: 280px;
+	width: 100px;
+}
+.status-menu-container .status-menu .status-button.completed:after {
+	left: 45px;
+}
+.status-menu-container .status-menu .status-button.onhold {
+	left: 380px;
+	width: 80px;
+}
+.status-menu-container .status-menu .status-button.onhold:after {
+	left: 35px;
+}
+.status-menu-container .status-menu .status-button.dropped {
+	left: 460px;
+	width: 80px;
+}
+.status-menu-container .status-menu .status-button.dropped:after {
+	left: 35px;
+}
+.status-menu-container .status-menu .status-button.plantowatch, .status-menu-container .status-menu .status-button.plantoread {
+	left: 540px;
+	width: 140px;
+}
+.status-menu-container .status-menu .status-button.plantowatch:after, .status-menu-container .status-menu .status-button.plantoread:after {
+	left: 65px;
+}
+.status-menu-container .search-container {
+	position: absolute;
+	right: -110px;
+	top: 0px;
+}
+.status-menu-container .search-container #search-box {
+	height: 30px;
+	left: 0px;
+	margin: 0;
+	position: absolute;
+	top: 0px;
+}
+.status-menu-container .search-container #search-box.open {
+	width: 200px;
+}
+.status-menu-container .search-container #search-box input {
+	background: rgba(0, 0, 0, 0.75);
+	border: none;
+	border-radius: 11px;
+	color: white;
+	height: 30px;
+	outline: none;
+	text-align: center;
+}
+.status-menu-container .search-container #search-button {
+	color: white;
+	height: 30px;
+	margin: 0;
+	position: absolute;
+	right: 0px;
+	text-align: center;
+	top: 0px;
+	transition: color 0.2s ease-in-out;
+	width: 30px;
+}
+.status-menu-container .search-container #search-button:hover {
+	color: #d0931b;
+}
+.status-menu-container .search-container #search-button .fa-solid {
+	font-size: 15px;
+	line-height: 30px;
+}
+
+.list-menu-float {
+	--h: calc(100vh / 1080);
+	background: none;
+	border-bottom: none;
+	border-left: solid 1px #d0931b;
+	border-right: none;
+	border-top: none;
+	display: block;
+	height: 40px;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	right: 41px;
+	top: 0px;
+	width: 40px;
+	z-index: 600;
+}
+.list-menu-float:before {
+	background: none;
+	color: #d0931b;
+	content: "\F0C9";
+	display: block;
+	font-family: 'FontAwesome';
+	font-size: 15px;
+	height: 40px;
+	left: 0px;
+	line-height: 40px;
+	top: 0px;
+	transition: color 0.2s ease-in-out;
+	position: absolute;
+	text-align: center;
+	width: 40px;
+}
+.list-menu-float:hover:before {
+	color: white;
+}
+.list-menu-float .icon-menu {
+	backdrop-filter: blur(5px);
+	background-color: rgba(0, 0, 0, 0.75) !important;
+	border-left: solid 1px #d0931b;
+	display: block;
+	height: 22px;
+	margin: 0;
+	opacity: 1;
+	padding: 0;
+	position: absolute;
+	right: -164px;
+	transition: right 0.2s ease-in-out;
+	width: 122px !important;
+}
+.list-menu-float:hover .icon-menu {
+	right: -41px;
+}
+.list-menu-float .icon-menu:not(.profile):hover {
+	backdrop-filter: blur(5px);
+}
+.list-menu-float .icon-menu svg.icon {
+	background-size: contain;
+	display: block;
+	fill: #d0931b;
+	height: 16px;
+	left: auto !important;
+	right: 3px !important;
+	padding: 0;
+	pointer-events: auto;
+	position: absolute;
+	top: 3px !important;
+	transition: fill 0.2s ease-in-out;
+	width: 16px;
+}
+.list-menu-float .icon-menu:hover svg.icon, .list-menu-float .icon-menu svg.icon:hover {
+	fill: white;
+}
+.list-menu-float .icon-menu.profile {
+	background-size: cover;
+	border-left: solid 1px #d0931b;
+	display: block;
+	filter: brightness(90%) contrast(140%);
+	height: 40px !important;
+	pointer-events: auto;
+	position: fixed;
+	right: 0px;
+	top: 0px;
+	width: 40px !important;
+	z-index: 600;
+}
+.list-menu-float .icon-menu.profile:hover {
+	background-position: 0 0 !important;
+}
+.list-menu-float .icon-menu .text, .list-menu-float .icon-menu.setting .link-list-setting, .list-menu-float .icon-menu.setting .link-style-setting {
+	background: none;
+	border: none;
+	color: #d0931b !important;
+	display: inline-block;
+	font-family: 'Lucida Grande', 'Verdana';
+	font-size: 16px;
+	height: 22px !important;
+	left: auto;
+	line-height: 22px !important;
+	opacity: 1;
+	overflow: hidden;
+	pointer-events: auto;
+	position: absolute;
+	right: 24px;
+	text-align: right;
+	top: 0px;
+	transition: color 0.2s ease-in-out;
+	width: 99px !important;
+	z-index: 601;
+}
+.list-menu-float .icon-menu:hover .text, .list-menu-float .icon-menu.setting .link-list-setting:hover, .list-menu-float .icon-menu.setting .link-style-setting:hover {
+	color: white !important;
+}
+.list-menu-float .icon-menu.quick-add {
+	top: 40px;
+}
+.list-menu-float .icon-menu.anime-list {
+	top: 62px;
+}
+.list-menu-float .icon-menu.manga-list {
+	top: 84px;
+}
+.list-menu-float .icon-menu.history {
+	top: 106px;
+}
+.list-menu-float .icon-menu.login, .list-menu-float .icon-menu.logout {
+	border-bottom: solid 1px #d0931b;
+	top: 128px;
+}
+body[data-owner="1"] .list-menu-float .icon-menu.login, body[data-owner="1"] .list-menu-float .icon-menu.logout {
+	border-bottom: none;
+}
+.list-menu-float .icon-menu.export {
+	top: 150px;
+}
+.list-menu-float .icon-menu.setting {
+	border-bottom: solid 1px #d0931b;
+	top: 172px;
+}
+.list-menu-float .icon-menu.setting:hover {
+	border-bottom: none
+}
+.list-menu-float .icon-menu.setting span.text {
+	height: 0px !important;
+	left: 0px;
+	opacity: 1;
+	overflow: visible;
+	position: absolute;
+	top: 0px;
+	width: 0px !important;
+}
+.list-menu-float .icon-menu.setting span.text:before {
+	content: "Settings";
+	left: 0px;
+	position: absolute;
+	width: 101px;
+}
+.list-menu-float .icon-menu.setting .link-list-setting, .list-menu-float .icon-menu.setting .link-style-setting {
+	background: rgba(0, 0, 0, 0.75) !important;
+	border-left: solid 1px #d0931b;
+	left: -1px !important;
+	padding-right: 3px;
+	width: 119px !important;
+}
+.list-menu-float .icon-menu.setting .link-list-setting {
+	top: 22px !important;
+}
+.list-menu-float .icon-menu.setting .link-style-setting {
+	border-top: none !important;
+	border-bottom: solid 1px #d0931b;
+	top: 44px !important;
+}
+
+#fancybox-overlay {
+	background: black;
+	opacity: 0.95 !important;
+	z-index: 999 !important;
+}
+#fancybox-wrap {
+	opacity: 0.8 !important;
+}
+#advanced-options .btn-apply, #advanced-options .btn-clear {
+	background-color: rgba(208, 147, 27, 1);
+}
+#advanced-options .btn-apply:hover, #advanced-options .btn-clear:hover {
+	background-color: rgba(208, 147, 27, 0.8);
+}
